@@ -91,13 +91,6 @@ unserializing them.
  method instead of querying the virtual `$cmd` collection.
 
 ## MongoCollection
-
- - The [insert](https://php.net/manual/en/mongocollection.insert.php),
- [batchInsert](https://php.net/manual/en/mongocollection.batchinsert.php),
- and [save](https://php.net/manual/en/mongocollection.save.php)
- methods take the first argument by reference. While the original API does not
- explicitely specify by-reference arguments it does add an ID field to the
- objects and documents given.
  - The [parallelCollectionScan](https://php.net/manual/en/mongocollection.parallelcollectionscan.php)
  method is not yet implemented.
 
